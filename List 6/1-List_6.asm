@@ -112,5 +112,14 @@ main:
     
     sw $t2, ($t0)		# a[k] = a[t2]
     
-    
+    lw $s0, a
+    lw $s1, a+4
+    lw $s2, a+8
+    lw $s3, a+12
+    lw $s4, a+16
+    lw $s5, a+20
+    lw $s6, a+24
+    lw $s7, a+28
+    lw $t8, a+32
+    lw $t9, a+36
     
